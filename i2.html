@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>femboy.money</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta property="og:title" content="femboy.money">
+    <meta property="og:description" content="money, hahaha">
+    <meta property="og:type" content="website">
+    <style>
+        /* Custom animations from money.css */
+        @keyframes drop {
+            from { top: -20px; }
+            to { top: 700px; }
+        }
+
+        @keyframes bill {
+            0% { transform: rotate(-180deg) translate(0px, 0px) rotateX(-360deg) rotateY(-180deg); border-radius: 0 0 0 0; }
+            10% { border-radius: 0 3px 0 0; }
+            15% { border-radius: 0 60px 35px 0; }
+            50% { transform: rotate(180deg) translate(10px, 95px) rotateX(180deg) rotateY(180deg); border-radius: 50px 0 0 0; }
+            60% { border-radius: 60px 3px 0 0; }
+            70% { border-radius: 10px 0 0 0; }
+        }
+
+        #money div {
+            position: absolute;
+            top: -40px;
+            animation-name: drop, bill;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function: ease-in;
+        }
+
+        .bill {
+            background-image: url('100dollarok.jpg');
+            background-size: contain;
+            height: 21px;
+            width: 51px;
+            position: absolute;
+        }
+
+        .bill.b1 { left: calc(50% - 460px); animation-duration: 12s; }
+        .bill.b2 { left: calc(50% - 380px); animation-duration: 7s; }
+        .bill.b3 { left: calc(50% - 300px); animation-duration: 11s; }
+        .bill.b4 { left: calc(50% - 220px); animation-duration: 13s; }
+        .bill.b5 { left: calc(50% - 120px); animation-duration: 8s; }
+        .bill.b6 { left: calc(50% - 20px); animation-duration: 6s; }
+        .bill.b7 { left: calc(50% + 80px); animation-duration: 12s; }
+        .bill.b8 { left: calc(50% + 180px); animation-duration: 5s; }
+        .bill.b9 { left: calc(50% + 200px); animation-duration: 11s; }
+        .bill.b10 { left: calc(50% + 220px); animation-duration: 7s; }
+        .bill.b11 { left: calc(50% + 240px); animation-duration: 15s; }
+        .bill.b12 { left: calc(50% + 250px); animation-duration: 12s; }
+        .bill.b13 { left: calc(50% + 300px); animation-duration: 6s; }
+        .bill.b14 { left: calc(50% + 340px); animation-duration: 12s; }
+        .bill.b15 { left: calc(50% + 480px); animation-duration: 5s; }
+        .bill.b16 { left: calc(50% + 500px); animation-duration: 11s; }
+        .bill.b17 { left: calc(50% + 520px); animation-duration: 7s; }
+        .bill.b18 { left: calc(50% + 540px); animation-duration: 15s; }
+        .bill.b19 { left: calc(50% + 580px); animation-duration: 22s; }
+    </style>
+</head>
+<body class="bg-pink-300 text-white flex flex-col justify-center items-center h-full">
+    <!-- Disclaimer Overlay -->
+    <div id="intro-overlay" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-50">
+        <div id="intro-box" class="bg-gray-800 p-8 rounded-lg max-w-md shadow-lg text-center">
+            <h2 class="text-3xl font-bold mb-4">femboy.money</h2>
+            <p class="mb-5">Are you suree you want to be femboy money??? Arree you sure you arte femboy money enuyff?? <br><br>This is totally a not just a ploy to get you to interact with the site so I can play audio :3.</p>
+            <button onclick="proceedToContent()" class="mt-4 px-6 py-2 bg-green-600 rounded text-white text-lg hover:bg-green-500">I am femboy.money enuff</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="content" class="hidden flex flex-col items-center">
+        <div id="money" class="relative w-full h-full">
+            <div class="bill b1"></div>
+            <div class="bill b2"></div>
+            <div class="bill b3"></div>
+            <div class="bill b4"></div>
+            <div class="bill b5"></div>
+            <div class="bill b6"></div>
+            <div class="bill b7"></div>
+            <div class="bill b8"></div>
+            <div class="bill b9"></div>
+            <div class="bill b10"></div>
+            <div class="bill b11"></div>
+            <div class="bill b12"></div>
+            <div class="bill b13"></div>
+            <div class="bill b14"></div>
+            <div class="bill b15"></div>
+            <div class="bill b16"></div>
+            <div class="bill b17"></div>
+            <div class="bill b18"></div>
+            <div class="bill b19"></div>
+        </div>
+        <table class="w-full max-w-xl border-spacing-5">
+            <tr>
+                <td class="p-5 text-center">
+                    <img src="femon.png" alt="Site Image" class="max-w-full h-auto rounded-lg">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <h1 class="text-3xl font-bold mb-4 text-gray-700">femboy.money</h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <p class="text-lg text-gray-700 mb-2">awwww yeah,, moneyyy awe yeah. moneyyy yeaahaha moneyy yeah YUH</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <footer class="text-sm bg-opacity-90 bg-gray-800 p-1 rounded-lg shadow-lg text-center">
+                        <a href="https://soundcloud.com/litesix" class="text-pink-400 hover:underline">maed by lite</a> | 
+                        <a href="https://www.youtube.com/watch?v=fqYjCXCqMbs" class="text-pink-400 hover:underline">hahaha</a> | 
+                        <a href="https://github.com/ocobacho/css3-money-rain/tree/master" class="text-pink-400 hover:underline">money css</a> not made by me lulz | 
+                        <a href="https://github.com/astr4lite/astr4lite.github.io" class="text-pink-400 hover:underline">site source</a>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        // Initialize and play audio
+        const audio = new Audio('lafin.mp3');
+        audio.loop = true;
+        audio.autoplay = false;
+        var lol = audio.play();
+        
+        if (lol !== undefined) {
+            lol.then (_ => {
+                // autoplayworky
+                proceedToContent()
+            }).catch(error => {
+                console.error('Audio playback failed:', error);
+            });
+        }
+        
+
+        function proceedToContent() {
+            // Hide the intro overlay
+            document.getElementById('intro-overlay').style.display = 'none';
+            // Show the main content
+            document.getElementById('content').style.display = 'block';
+            // Play audio
+            if (audio.paused && audio.currentTime >= 0 && !audio.started) {
+                audio.play();
+            }
+        }
+
+
+        
+    </script>
+</body>
+</html>
